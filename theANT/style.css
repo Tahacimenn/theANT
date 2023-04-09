@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  background-color: #878f99;
+  height: 69px;
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border: 1px solid black;
+}
+.logoresim {
+  width: 65px;
+  height: 65px;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.menu {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 120px);
+}
+.logolink {
+  font-size: 48px;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+}
+
+p {
+  color: white;
+  background-color: rgba(21, 19, 19, 0.639);
+  font-size: 22px;
+  text-align: center;
+}
+
+nav {
+  background-color: #878f99;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+li a:hover {
+  background-color: #fff;
+  color: #878f99;
+  border-radius: 10px;
+}
+
+main {
+  height: 900px;
+  background-color: gray;
+  margin-top: 69px;
+}
+
+.ana {
+  width: 80%;
+  background-color: yellow;
+  float: left;
+  height: 900px;
+  background-image: url(/images/bg1.jpg);
+  background-position: left;
+
+  background-attachment: fixed;
+  border: 2px solid black;
+}
+.yan {
+  width: 20%;
+  background-color: #d6cbd3;
+  float: right;
+  height: 900px;
+  border: 2px solid black;
+}
+
+footer {
+  height: 500px;
+  background-color: #878f99;
+}
+img {
+  width: 400px;
+  margin: auto;
+}
+
+.box {
+  float: left;
+  width: 32%;
+  border: 3px solid rgba(21, 19, 19, 0.639);
+  padding: 15px 55px;
+  height: 450px;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: #618685;
+  border-radius: 10px;
+}
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+h3 {
+  font-size: 22px;
+  color: #fff;
+}
+.logoresim {
+  width: 60px;
+  height: 60px;
+}
+.yan li {
+  display: inline-block;
+  background-color: #fff;
+  padding: 20px 50px;
+  margin: 10px;
+  border: 3px solid rgba(21, 19, 19, 0.639);
+  border-radius: 6px;
+}
+
+.yan li {
+  width: 70%;
+  text-align: center;
+}
+.yan li img {
+  height: 80px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.yan li p {
+  background-color: #fff;
+  color: #878f99;
+  font-size: 28px;
+}
